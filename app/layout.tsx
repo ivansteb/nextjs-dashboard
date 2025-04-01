@@ -10,7 +10,7 @@ export default function RootLayout({
     <html lang="es">
       <body className={`${montserrat.className} antialiased`}>
         {children}
-        <footer className="flex h-20 items-center justify-center bg-gray-100 text-gray-500">
+        <footer className="flex h-10 items-center justify-center bg-blue-500 text-white pb-0">
           Hecho con ❤️ por Vercel
         </footer>
       </body>
